@@ -1,0 +1,25 @@
+body, html {
+  margin: 0; }
+
+.container {
+  background-color: red;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px; }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.col1 {
+  background-color: green;
+  width: 32.43243%;
+  float: left;
+  margin-right: 1.35135%; }
+
+.col2 {
+  background-color: blue;
+  width: 66.21622%;
+  float: right;
+  margin-right: 0; }

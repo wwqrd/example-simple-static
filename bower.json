@@ -1,0 +1,21 @@
+{
+  "name": "sass",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Stephen Mckellar <stephen@thingmaker.uk>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12"
+  }
+}

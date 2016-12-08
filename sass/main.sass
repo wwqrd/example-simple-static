@@ -1,0 +1,19 @@
+@import "../bower_components/susy/sass/susy"
+
+$susy: (columns: 15)
+
+body, html
+  margin: 0
+
+.container
+  background-color: red
+  @include container(1200px)
+  width: 1200px
+
+.col1
+  background-color: green
+  @include span(5)
+
+.col2
+  background-color: blue
+  @include span(10 last)
